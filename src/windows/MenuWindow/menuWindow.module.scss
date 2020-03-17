@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  top: 52px;
+  min-width: 500px;
+}
+
+.text {
+  margin: 0;
+  color: #495455;
+  text-transform: uppercase;
+}
+
+.mainText {
+  @extend .text
+
+}
+
+.subText {
+  @extend .text
+}
+
+.icon {
+  width: 2rem;
+  margin-right: .5rem;
+  color: #F7755A;
+}
+
+.profile {
+  color: #8B8B8B;
+  font-weight: 200;
+  max-width: 400px;
+}
+
+.line {
+  border: .5px solid #E8E8E8;
+}

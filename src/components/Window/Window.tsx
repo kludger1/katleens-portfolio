@@ -1,25 +1,24 @@
 import React, {ReactElement} from 'react';
-import styles from './screen.module.scss'
+import styles from './window.module.scss'
 
 interface Interface {
-    children: ReactElement
+    children: ReactElement | ReactElement[];
+    className?: string;
 }
 
-const Screen: React.FC<Interface> = ({children}) => {
+const Window: React.FC<Interface> = ({children, className}) => {
     return (
-        <div className={styles.container}>
+        <div className={`${styles.container} ${className && className}`}>
             <div className={styles.header}>
-                <div className={styles.circle}>c</div>
-                <div className={styles.circle}>c</div>
-                <div className={styles.circle}>c</div>
+                <div className={styles.circle}></div>
+                <div className={styles.circle}></div>
+                <div className={styles.circle}></div>
             </div>
             <div className={styles.mainContent}>
-                <h1 className={styles.mainHeader}>
                     {children}
-                </h1>
             </div>
         </div>
     );
 }
 
-export default Screen;
+export default Window;

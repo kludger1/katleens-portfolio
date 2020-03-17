@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b793e428-5339-4c63-b042-89451050da12" name="Default Changelist" comment="" />
+    <list default="true" id="b793e428-5339-4c63-b042-89451050da12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SkillBar/SkillBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SkillBar/skillBar.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SkillList/SkillList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SkillList/skillListItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myinfo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/About/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/About/about.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProjectDetails/ProjectDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProjectDetails/projectDetails.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Projects/Projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Projects/projects.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Skills/Skills.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Skills/skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderText/HeaderText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderText/HeaderText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderText/headerText.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderText/headerText.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/project.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Window/Window.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Window/Window.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Window/window.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Window/window.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/MainContentWindow/MainContentWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/MainContentWindow/MainContentWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/MainContentWindow/mainContentWindow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/MainContentWindow/mainContentWindow.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/MenuWindow/MenuWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/MenuWindow/MenuWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/MenuWindow/menuWindow.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/MenuWindow/menuWindow.module.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +57,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,7 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Images" />
+      <recent name="$PROJECT_DIR$/src/components/SkillBar" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/screen" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
@@ -73,7 +109,8 @@
       <updated>1583286914495</updated>
       <workItem from="1583286915589" duration="4508000" />
       <workItem from="1583293564995" duration="1033000" />
-      <workItem from="1583724552524" duration="3551000" />
+      <workItem from="1583724552524" duration="3774000" />
+      <workItem from="1584327088861" duration="23650000" />
     </task>
     <servers />
   </component>
@@ -85,29 +122,43 @@
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="116" y="116" key="#ESLint/0.23.1440.796@0.23.1440.796" timestamp="1583293669891" />
-    <state x="1711" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584325702341">
-      <screen x="1440" y="23" width="1920" height="976" />
+    <state x="1711" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584332153714">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
+    <state x="1711" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584332153714" />
     <state x="1711" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584325702341" />
-    <state width="1233" height="263" key="GridCell.Tab.0.bottom" timestamp="1584326467471">
+    <state width="764" height="263" key="GridCell.Tab.0.bottom" timestamp="1584472424063">
       <screen x="1440" y="23" width="1920" height="976" />
     </state>
-    <state width="1233" height="263" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584326467471" />
-    <state width="1233" height="263" key="GridCell.Tab.0.center" timestamp="1584326467470">
+    <state width="616" height="263" key="GridCell.Tab.0.bottom/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584396761754" />
+    <state width="764" height="263" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584472424063" />
+    <state width="764" height="263" key="GridCell.Tab.0.center" timestamp="1584472424063">
       <screen x="1440" y="23" width="1920" height="976" />
     </state>
-    <state width="1233" height="263" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584326467470" />
-    <state width="1233" height="263" key="GridCell.Tab.0.left" timestamp="1584326467470">
+    <state width="616" height="263" key="GridCell.Tab.0.center/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584396761753" />
+    <state width="764" height="263" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584472424063" />
+    <state width="764" height="263" key="GridCell.Tab.0.left" timestamp="1584472424062">
       <screen x="1440" y="23" width="1920" height="976" />
     </state>
-    <state width="1233" height="263" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584326467470" />
-    <state width="1233" height="263" key="GridCell.Tab.0.right" timestamp="1584326467470">
+    <state width="616" height="263" key="GridCell.Tab.0.left/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584396761753" />
+    <state width="764" height="263" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584472424062" />
+    <state width="764" height="263" key="GridCell.Tab.0.right" timestamp="1584472424063">
       <screen x="1440" y="23" width="1920" height="976" />
     </state>
-    <state width="1233" height="263" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584326467470" />
+    <state width="616" height="263" key="GridCell.Tab.0.right/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584396761754" />
+    <state width="764" height="263" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584472424063" />
     <state x="56" y="60" key="SettingsEditor" timestamp="1583292415841">
       <screen x="0" y="23" width="1440" height="796" />
     </state>
     <state x="56" y="60" key="SettingsEditor/0.23.1440.796@0.23.1440.796" timestamp="1583292415841" />
+    <state x="1775" y="288" width="639" height="486" key="find.popup" timestamp="1584327598059">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1775" y="288" width="639" height="486" key="find.popup/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584327598059" />
+    <state x="1760" y="240" width="670" height="625" key="search.everywhere.popup" timestamp="1584467541240">
+      <screen x="1440" y="23" width="1920" height="976" />
+    </state>
+    <state x="1760" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1440.796/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584398357799" />
+    <state x="1760" y="240" width="670" height="625" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.976@1440.23.1920.976" timestamp="1584467541240" />
   </component>
 </project>

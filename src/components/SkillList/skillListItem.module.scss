@@ -1,0 +1,15 @@
+.listItem {
+  list-style: none;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: .2rem;
+  &:before {
+    display: inline-flex;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-right: .5rem;
+    background-color: #FA7455;
+  }
+}

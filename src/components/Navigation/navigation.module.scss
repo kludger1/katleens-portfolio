@@ -1,0 +1,17 @@
+.nav {
+
+}
+
+.navItem {
+  text-decoration: none;
+  display: flex;
+  text-transform: uppercase;
+  color: #5A6667;
+  font-weight: bold;
+  padding: .2rem;
+  width: 90px;
+  &:hover {
+    background-color: #F7755A;
+    color: #fff;
+  }
+}
