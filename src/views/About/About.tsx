@@ -1,25 +1,43 @@
-import React from 'react';
+import React from "react";
 import HeaderText from "../../components/HeaderText/HeaderText";
 
-import styles from './about.module.scss';
-
+import styles from "./about.module.scss";
 
 const About: React.FC = () => {
-    return (
-        <div className={styles.container}>
-            <HeaderText text="About"/>
-            <p>Hello and Good Morning!</p>
-            <p>My name is Katleen but people call me Kat. I love coding and more importantly I love learning!
+  return (
+    <div className={styles.container}>
+      <HeaderText text="About" />
+      <p>
+        I'm Kat and I am a full stack web developer. I am very passionate about
+        programing. I've been learning code for more than 2 year intensely now
+        and I've earned a great deal of professional and academic knowledge
+        during this time. Take a look at my <a target="_blank" href={process.env.PUBLIC_URL + '/katleens-resume.pdf'}>resume</a> to see my experience and contact information.
+      </p>
 
-                My favorite thing to do is to find ways to improve myself.
+      <p>
+        I’m able to build a Website or App from the ground up from concept,
+        navigation, layout and programming. I can write well-designed, testable
+        and efficient code using current best practices in Web development.
+      </p>
 
-                Currently I work for TDS also known as transcor data services making software for busses. We use a lot of different libraries and frameworks and we are constantly learning new things and growing as a company.
+      <p>
+        Although design is not my strongest skill, I do have some knowledge on
+        design theory and you could rate my designs by looking at this website
+          and the other <a href="/">projects</a> I created.
+      </p>
 
-                I love teaching people about the Bible and helping build  a relationship with God, that is very impotent to me. I’m trying to get into the tiny house movement hopefully I can get one soon.
+        <p>
+            I have a lot of knowledge on back-end programing, database, rest API, security,
+            microservices, authentication, authorizing, but I have more professional experience with front-end programing.
 
-                Im also learning how health and fitness play a big role in my leaning and thinking so I’m working on that also. </p>
-        </div>
-    );
-}
+        </p>
+
+      <p>
+        I have excellent communication and problem-solving skills. I'm able to
+        focus on projects, develop strategies and meet or exceed deadlines.
+      </p>
+    </div>
+  );
+};
 
 export default About;

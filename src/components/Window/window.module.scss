@@ -1,7 +1,20 @@
+@import "src/global";
 .container {
   background-color: #D0E7C9;
   width: 550px;
   height: fit-content;
+  @media (max-width: $break-point) {
+    top: 0;
+    max-width: 50%;
+    min-width: 50%;
+  }
+  @media (max-width: $break-point2) {
+    top: 0;
+    max-width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    min-height: 100vh;
+  }
 }
 
 .header {
@@ -17,12 +30,20 @@
   height: 555px;
   margin: 0 .5rem .5rem .5rem;
   padding: 1.3rem;
+  @media (max-width: $break-point) {
+    overflow-y: auto;
+    height: 88.5vh;
+  }
+  @media (max-width: $break-point2) {
+
+  }
+
 }
 
 .circle {
   background-color: #fff;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   border-radius: 100%;
   margin: 0 .2rem;
 }

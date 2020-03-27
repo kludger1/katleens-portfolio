@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
         <div>
             <HeaderText text="Skills"/>
             <div className={styles.container}>
-                <div>
+                <div className={styles.currentSkillsContainer}>
                     <HeaderText text="CURRENTLY WORKING WITH…" size={15}/>
                     <div className={styles.skillList}>
                         {MY_INFO.skills.currently.map((skill)=>{

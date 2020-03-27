@@ -28,7 +28,6 @@ export const ROUTES = [
     },
     {
         path: "/",
-        exact: true,
         main: () => <h1>404</h1>
     }
 

@@ -4,13 +4,13 @@ import {Link} from "react-router-dom";
 
 interface Interface {
     to: string;
-    className?: string;
+    image: string
 }
 
-const Project: React.FC<Interface> = ({className, to}) => {
+const Project: React.FC<Interface> = ({ to, image}) => {
     return (
-        <Link to={to} className={`${styles.container} ${className && className}`}>
-
+        <Link to={to} className={styles.container}>
+            <img className={styles.projectImg} src={image} alt="project image" />
         </Link>
     );
 }

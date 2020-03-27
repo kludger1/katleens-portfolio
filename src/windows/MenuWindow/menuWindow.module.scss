@@ -1,7 +1,15 @@
+@import "src/global";
+
 .container {
   position: relative;
   top: 52px;
+  left: 50px;
+  max-width: 500px;
   min-width: 500px;
+  @media (max-width: $break-point) {
+    top: 0;
+    left: 0;
+  }
 }
 
 .text {
@@ -19,16 +27,30 @@
   @extend .text
 }
 
+.iconsContainer {
+  display: flex;
+  align-items: center;
+}
+
 .icon {
-  width: 2rem;
+  width: 1.5rem;
   margin-right: .5rem;
   color: #F7755A;
 }
 
+.pdf {
+  @extend .icon;
+  width: 1.1rem;
+}
+
 .profile {
-  color: #8B8B8B;
-  font-weight: 200;
-  max-width: 400px;
+  @extend .paragraph;
+  max-width: 350px;
+}
+
+.pop {
+  @extend .paragraph;
+  font-weight: 300;
 }
 
 .line {

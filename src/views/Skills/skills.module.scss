@@ -1,7 +1,15 @@
+@import "src/global";
+
 .container {
   display: flex;
   margin-top: 1rem;
-  justify-content: space-between;
+  @media (max-width: $break-point) {
+    flex-direction: column;
+  }
+}
+
+.currentSkillsContainer {
+  margin-right: 2rem;
 }
 
 .skillList {

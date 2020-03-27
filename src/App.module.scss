@@ -1,3 +1,5 @@
+@import "src/global";
+
 body {
   background-color: #313A45;
 }
@@ -7,6 +9,13 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
+  @media (max-width: $break-point) {
+    margin: 0;
+  }
+  @media (max-width: $break-point2) {
+    margin: 0;
+    flex-direction: column;
+  }
 }
 
 *::selection {

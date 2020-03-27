@@ -1,0 +1,17 @@
+@import "src/global";
+
+.container {
+  min-width: 385px;
+  height: 313px;
+  border: 1px solid #E8E8E8;
+  margin-right: 1rem;
+  padding: 1rem;
+
+  .img {
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: $break-point) {
+    min-width: 100%;
+  }
+}

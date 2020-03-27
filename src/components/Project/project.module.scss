@@ -1,6 +1,25 @@
+@import "src/global";
+
 .container {
-  min-width: 310px;
-  margin-bottom: 1rem;
-  height: 160px;
+  min-width: max-content;
+  margin-bottom: 1.1rem;
+  height: 200px;
+  padding: 1rem;
   border: 1px solid #E8E8E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .projectImg {;
+    height: 100%;
+    filter: grayscale(25%);
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 20px 0px #dcdcdc;
+  }
+
+  @media (max-width: $break-point) {
+    min-width: 100%;
+  }
 }

@@ -1,8 +1,12 @@
+@import "src/global";
+
 .container {
   p {
-    color: #8B8B8B;
-    font-weight: 200;
-    max-width: 400px;
+    @extend .paragraph
+  }
+
+  a {
+    color: #f7755a;
   }
 }
 

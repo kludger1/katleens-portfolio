@@ -1,7 +1,23 @@
+@import "src/global";
+
 .container {
   position: relative;
-  right: 100px;
-  min-width: 700px;
+  right: 50px;
+  max-width: 850px;
+  min-width: 850px;
+  //overflow-y: auto;
+  @media (max-width: $break-point) {
+    right: 0;
+    min-width: 50%;
+    max-width: 50%;
+  }
+  @media (max-width: $break-point2) {
+    top: 0;
+    max-width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    min-height: 100vh;
+  }
 }
 
 
