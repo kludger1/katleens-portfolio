@@ -48,10 +48,9 @@ export const MY_INFO = {
       linkTo: "/p/4",
       details: {
         img: project4,
-        name: "Gradient Generator\n",
-        details: "This is a gradient generator with the ability to choose the amount of colors you want for your gradient, what side you want the gradient to come from, also the ability to copy gradient with one click. This app was made with: Html, Css, JavaScript",
-        demoLink: "https://ks-gradient-generator.netlify.com/",
-        codeLink: "https://github.com/kludger1/gradient-background"
+        name: "peter pan",
+        details: "This is one of the many projects I worked with at TDS. We worked on the website and mobile app to fix bugs and refactor code that the team before us wrote. We worked with clients like peter Pan, Greyhound, BoltBus and more. We made websites, admin portals, mobile apps, and kiosk apps for these companies.",
+        companyLink: "https://peterpanbus.com/",
       }
     }
   ],
