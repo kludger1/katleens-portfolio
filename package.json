@@ -23,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-production": "react-scripts build && scp -r ./build/* kat@167.172.144.168:/var/www/katsspace.com/html"
   },
   "eslintConfig": {
     "extends": "react-app"
